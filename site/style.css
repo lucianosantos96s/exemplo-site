@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    color: #000;
+}
+
+/* Início Topo */
+
+#topo {
+    background-color: #c1c4c9;
+    width: 100%;
+    height: 150px;
+}
+
+#titulo {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#titulo h1 {
+    float: left;
+    font-size: 50px;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+
+}
+
+#titulo ul {
+    list-style-type: none;
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+
+#titulo li {
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#menu a:hover {
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+}
+
+/* Fim topo */
+
+
+.bem-vindo {
+   background-color: #fff;
+}
+
+.sobre {
+    background-color: #fff;
+ }
+
+.contato {
+    background-color: #fff;
+}
+
+.postagem {
+    background-color: #fff;
+    max-width: 1024px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+
+.postagem h1 {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.postagem p {
+    margin: 25px;
+}
+
+#rodape {
+    background-color: #c1c4c9;
+}
+
+#conteudo {
+    margin: 0 auto;
+    max-width: 1024px;
+    height: 150px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 150px;
+}
